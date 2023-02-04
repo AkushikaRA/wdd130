@@ -1,4 +1,29 @@
 
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Dancing+Script:wght@600&family=Quintessential&display=swap');
+
+:root {
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Anton";
+  --paragraph-font: Courgette, Dancing Script, Quintessential;
+
+}
+h1 {
+    font-family: Anton;
+}
+h2 {
+    font-family:Anton;
+}
+h4 {
+   font-family: Courgette;
+}
+nav{
+    font-family: Courgette;
+}
+
+
   #content {
     max-width: 1600px;
     display: block;
@@ -64,11 +89,11 @@
     background-color: #032860
     }
 
-    .book:hoover {
+    .book:hover {
     background-color: #0F4F93
     }
 
-    .join:hoover {
+    .join:hover {
     background-color: white
     }
 
@@ -79,22 +104,38 @@
     .msg {
     background-color: #1974D2
     }
+    .msg {
+     line-height: 1.5em;
+    }
 
     footer {
     background-color: #0F4F93
     }
 
     nav a {
-        background-color: black
+        background-color: #1974D2
         }
 
     nav a:hover{
-        background-color: white
+        background-color: black
         }
 
     .home-title h4 {
         background-color: black
-        }    
+        }  
+
+    .home-title {
+        font-size: 2em;
+    }    
+    .book {
+        font-size: 18px;
+    } 
+    .join {
+        font-size: 18px;
+    }
+    .msg p {
+        font-size: .8em;
+    }
 
     .book {
         background-color: white
@@ -104,20 +145,23 @@
         background-color: black
         }
         
-    .book:hoover {
+    .book:hover {
         background-color: #0F4F93
         }  
         
-    .join:hoover {
+    .join:hover {
         background-color: white
         }
 
     .msg h2 {
         background-color: #0F4F93
         }
+    .msg p {
+        font-family: Courgette;
+    }
 
     .msg p {
-        background-color: white
+        background-color: #1974D2
         }
 
     footer {
@@ -125,10 +169,10 @@
         }
 
     footer a {
-        background-color: white
+        background-color: #0F4F93
         }
 
-    footer a:hoover {
+    footer a:hover {
         background-color: #0F4F93
         }
 
@@ -140,15 +184,105 @@
         text-align: center;
         color: white;
         text-decoration: none;
-        }        
+        }
+
+    .book {
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        font-family: Anton;
+        }
+     
+    .join {
+        text-align: center;
+        color: #1974D2;
+        text-decoration: none;
+        font-family: Anton;
+        }
+
+    footer a {
+        text-align: center;
+        color: #1974D2;
+        text-decoration: none;
+        }    
+        
 
     footer p {
         font-size: 1.2em;
+        font-family: Courgette;
         } 
         
     footer p a:hover {
-        text-decoration: underline;
+        text-decoration: none;
         }
 
-    
+    /*Simple reset of the default padding*/
+    body {
+        background-color: white
+    }
+
+    body {
+        background-color: white;
+        font-family: Courgette, Dancing Script, Quintessential;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        margin: 0;
+    }
+
+    /*adding padding and margins*/
+    #logo_link {
+        padding-top: 5px;
+    }
+    nav a {
+        padding: 35px;
+    }
+    .book {
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    .join {
+        padding: 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    .icon {
+        padding-top: 10px;
+    }
+    .msg {
+        padding: 35px;
+    }
+    .msg p {
+        padding-bottom: 15px;
+    }
+    footer {
+        padding: 25px 50px;
+    }
+    footer .social img{
+        padding-top: 15px;
+        margin-top: 200px;
+    }
+    .home-title {
+        margin-top: 10px;
+    }
+    .rivers-card {
+        margin:200px 0;
+    }
+    .camping-card {
+        margin: 200px 0;
+    }
+    .rapids-cards {
+        margin: 200px 0
+    }
+
+    /*other borders, border radius and box-sizing*/
+    .card-img {
+        border: 10px solid #1974D2
+    }
+    main section img {
+        box-sizing:border-box;
+    }
 
