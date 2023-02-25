@@ -134,7 +134,7 @@ nav{
     }
 
     .msg {
-    background-color: #1974D2
+    background-color: #0F4F93
     }
     .msg {
      line-height: 1.5em;
@@ -147,6 +147,21 @@ nav{
     footer {
     background-color: #0F4F93
     }
+    footer {
+        padding: 25px 50px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer a {
+        background-color: #0F4F93
+        }
+
+    footer a:hover {
+        background-color: #0F4F93
+        }
 
     nav a {
         background-color: #1974D2
@@ -204,25 +219,6 @@ nav{
     }
 
     .msg p {
-        background-color: #1974D2
-        }
-
-    footer {
-        background-color: #0F4F93
-     }
-    footer {
-        padding: 25px 50px;
-        margin-top: 200px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    footer a {
-        background-color: #0F4F93
-        }
-
-    footer a:hover {
         background-color: #0F4F93
         }
 
