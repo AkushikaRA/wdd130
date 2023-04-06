@@ -179,6 +179,7 @@ nav{
     .msg p {
         font-size: .8em;
         padding-bottom: 15px;
+        text-align: center;
     }
     .msg h2 {
         line-height:normal;
